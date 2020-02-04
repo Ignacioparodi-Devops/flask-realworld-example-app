@@ -8,7 +8,7 @@ from conduit.settings import ProdConfig
 from conduit.exceptions import InvalidUsage
 
 
-def create_app(config_object=ProdConfig):
+def create_app(config_object=DevConfig):
     """An application factory, as explained here:
     http://flask.pocoo.org/docs/patterns/appfactories/.
 
